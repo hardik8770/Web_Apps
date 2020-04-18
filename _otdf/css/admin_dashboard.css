@@ -1,0 +1,22 @@
+#topic_box{
+	border: 1px solid red;
+	width: 50%;
+	margin:10px auto;
+	
+}
+
+#topiclink{
+	border: 1px solid #990099;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	background: #990099;
+	color:#ffffff;
+	position:relative
+	
+}
+#topic_div{
+	width: 7.8%;
+	position: relative;
+	top : 3px;
+}

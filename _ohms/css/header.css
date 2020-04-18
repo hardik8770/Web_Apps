@@ -1,0 +1,48 @@
+/* #logo_txt{
+    color: rgb(80, 80, 80);
+    font-size: 1.5em;
+} */
+
+.menus{
+    border: 1px solid red;
+    width: 50px;
+    left: 220px;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+}
+@media (max-width: 992px){
+    .navbar-light .navbar-toggler {
+        background: #fff;
+        border-radius: 0;
+    }
+}
+
+.img-responsive{
+    max-height: 60px;
+    max-width: 100%; 
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo_txt{
+    /* border: 1px solid red; */
+    position: relative;
+    left : -18px;
+}
+
+#logo_txt h2{
+    margin-top: 7px;
+    color : rgb(117, 114, 114)
+}
+
+#care{
+    color: red;
+}
+
+#signUpTxt{
+    color: red;
+}

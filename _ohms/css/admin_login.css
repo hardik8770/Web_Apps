@@ -1,0 +1,105 @@
+.banner{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/_ohms/uploads/admin/admin_login.jpg);
+    background-size: cover;
+    /* background-position: top;     */
+}
+/* .banner:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(rgba(0, 162, 255, 0.582),transparent);
+    pointer-events: none;
+}
+.banner:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(360deg, #fff,transparent);
+    pointer-events: none;
+} */
+
+.contact .form-control{     
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,.2); 
+    height: 50px;
+    border-radius: 0;
+    background:  rgba(255, 255, 255, 0.349);
+    color: rgba(43, 41, 41, 0.753);
+    font-size: 1.25rem;
+}
+
+.contact .form-control:hover,
+.contact .form-control:focus{
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    box-shadow: none; 
+}
+
+.lbl{
+    color: rgb(255, 255, 255);
+    font-size: 1.15rem;
+    
+    text-shadow:-1px -1px 0 #000, 
+    3px 3px 0 rgb(82, 66, 66),  
+    /* 1px -1px 0 #000, */
+    -1px 1px 0 #000;
+    /* 1px 1px 0 #000; */
+}
+.welcm h1 span{
+    color: #ff0000;
+}
+.btnD1{
+    color:#686868;
+}
+.btnD1:hover{
+    color:#ff0000;
+    
+}
+
+.contact .textarea{
+    min-height: 100px;
+}
+
+.contact form{
+    position: relative;
+    z-index: 1000;
+}
+
+.admin_signin{
+    /* border: 1px solid red; */
+    position: relative;
+    top: 30px;
+    left: 280px;
+}
+
+.form_size{
+    width: 70%;
+}
+.frm{
+    /* border: 1px solid red;  */
+    position: relative;
+    top: 0px;
+    left: 110px;
+}
+.get_strtd{
+    left: 10px;
+}
+.welcm h1,p{
+    color: #fff;
+}
+.err_box{
+    width: 80%; 
+    position: relative;
+    left: 70px;
+}

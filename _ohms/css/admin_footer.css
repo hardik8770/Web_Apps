@@ -1,0 +1,44 @@
+.cpyrt_size{
+    font-size: 15px;
+}
+
+footer{
+    /* padding: 0px 0 0; */
+    position: fixed;
+	bottom:0px;
+	width:100%;
+}
+
+.sci{
+    margin:  0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sci li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.sci li a{
+    color: rgb(255, 249, 249);
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.sci li a:hover{
+    color: rgb(0, 140, 255);
+}
+
+.cpryt{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.cpryt a,
+.cpryt a:hover{
+    color:rgb(255, 255, 255);
+
+}

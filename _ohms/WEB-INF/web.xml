@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+  <welcome-file-list>
+    <welcome-file>admin_login.jsp</welcome-file>
+    <welcome-file>index.jsp</welcome-file>	
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>app001</servlet-name>
+    <servlet-class>controllers.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>app001</servlet-name>
+    <url-pattern>/admin/admin_login.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app002</servlet-name>
+	<servlet-class>controllers.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>app002</servlet-name>
+	<url-pattern>/admin/logout.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>app003</servlet-name>
+	<servlet-class>controllers.DoctorRegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app003</servlet-name>
+	<url-pattern>/admin/doctor_register.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app004</servlet-name>
+	<servlet-class>controllers.ReceptionistRegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app004</servlet-name>
+	<url-pattern>/admin/receptionist_register.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app005</servlet-name>
+	<servlet-class>controllers.ConferenceRegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app005</servlet-name>
+	<url-pattern>/admin/conferences_and_workshops_register.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app006</servlet-name>
+	<servlet-class>controllers.UpcomingEventsRegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app006</servlet-name>
+	<url-pattern>/admin/upcoming_events_register.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app007</servlet-name>
+	<servlet-class>controllers.CollectDoctorsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app007</servlet-name>
+	<url-pattern>/admin/collect_doctors_records.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app008</servlet-name>
+	<servlet-class>controllers.DeleteDoctorsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app008</servlet-name>
+	<url-pattern>/admin/delete_doctors_records.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app009</servlet-name>
+	<servlet-class>controllers.CollectEventServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app009</servlet-name>
+	<url-pattern>/admin/collect_conference.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app010</servlet-name>
+	<servlet-class>controllers.DeleteEventServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app010</servlet-name>
+	<url-pattern>/admin/delete_event.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app011</servlet-name>
+	<servlet-class>controllers.CollectEventServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app011</servlet-name>
+	<url-pattern>/admin/collect_upcoming.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app012</servlet-name>
+	<servlet-class>controllers.CollectDoctorsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app012</servlet-name>
+	<url-pattern>/admin/collect_receptionist.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app013</servlet-name>
+	<servlet-class>controllers.DeleteDoctorsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app013</servlet-name>
+	<url-pattern>/admin/delete_receptionist.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app014</servlet-name>
+	<servlet-class>controllers.ReceptionistLoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app014</servlet-name>
+	<url-pattern>/receptionist_login.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app015</servlet-name>
+	<servlet-class>controllers.ReceptionistLogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app015</servlet-name>
+	<url-pattern>/receptionist_logout.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app016</servlet-name>
+	<servlet-class>controllers.AppointmentServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app016</servlet-name>
+	<url-pattern>/appointment_register.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app017</servlet-name>
+	<servlet-class>controllers.CollectDoctorsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app017</servlet-name>
+	<url-pattern>/collect_doctors_records.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app018</servlet-name>
+	<servlet-class>controllers.CollectPatientServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app018</servlet-name>
+	<url-pattern>/collect_patient.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app019</servlet-name>
+	<servlet-class>controllers.DeletePatientServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app019</servlet-name>
+	<url-pattern>/delete_patient.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app020</servlet-name>
+	<servlet-class>controllers.DoctorLoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app020</servlet-name>
+	<url-pattern>/doctor_login.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app021</servlet-name>
+	<servlet-class>controllers.DoctorLogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app021</servlet-name>
+	<url-pattern>/doctor_logout.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app022</servlet-name>
+	<servlet-class>controllers.DoctorPatientCollectServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app022</servlet-name>
+	<url-pattern>/collect_doctor_patient.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app023</servlet-name>
+	<servlet-class>controllers.AddUserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app023</servlet-name>
+	<url-pattern>/user_register.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app024</servlet-name>
+	<servlet-class>controllers.UserLoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app024</servlet-name>
+	<url-pattern>/user_login.do</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>

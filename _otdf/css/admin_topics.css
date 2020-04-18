@@ -1,0 +1,77 @@
+
+#topic_table{
+	border: 1px solid #990099;
+	background-color:#faf1fa;
+	padding: 10px 20px 10px 20px;
+	position: absolute;
+	left: 250px;
+	top:183px;
+	
+	
+}
+#topic_table caption{
+	border:1px solid #990099;
+	background-color:#990099;
+	border-radius:8px 8px 0px 0px;
+	color:#ffff;
+	text-align:left;
+	font-weight: bold;
+	font-size: 24px;
+	
+}
+#topic_table th{
+	border: 1px solid #990099;
+	border-radius:8px 8px 0px 0px;
+	background-color:#990099;
+	color:#ffff;
+	width: 100px;
+	margin:20px;
+	font-size: 24px;
+}
+#topic_table td{
+	border: 1px solid #990099;
+	width: 100px;
+	margin:20px;
+	font-weight: bold;
+	font-size: 24px;
+}
+#add_new_topic{
+	border: 1px solid #990099;
+	background-color:#faf1fa;
+	padding: 10px 20px 10px 20px;
+	position: absolute;
+	left: 570px; 
+	bottom:30px;
+	width:50%;
+	padding-bottom:313px;
+	
+}
+#add_new_topic caption{
+	border:1px solid #990099;
+	background-color:#990099;
+	border-radius:8px 8px 0px 0px;
+	color:#ffff;
+	text-align:left;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#btn1{
+	font-size: 18px;
+	border-radius:8px;
+	color:#0066ff;
+}
+#ip_typ{
+	border: 1px solid #990099;
+	font-size: 18px;
+}
+
+#err_box{
+	border:1px solid red;
+	font-weight:bold;
+	color:red;
+	font-size:24px;
+	text-align:center;
+	margin: 20px auto 20px auto;
+	background-color:#ffdfe6;
+}

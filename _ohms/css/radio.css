@@ -1,0 +1,9 @@
+.banner{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/_ohms/uploads/departments/radio.png);
+    background-size: cover;
+    /* background-position: top;     */
+}

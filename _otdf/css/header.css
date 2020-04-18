@@ -1,0 +1,115 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: verdana;
+	background-color:#f2e1fb;
+}
+
+#header{
+	/* border: 1px solid red; */
+	background-image: url('../images/background.jpg');
+	background-position: center;
+	height: 80px;
+}
+#img{
+	height: 60px;
+	position:relative;
+	top:12px;
+	left:2px;
+}
+
+#txt{
+	margin-top:10px;
+	/* border:1px solid green; */
+	font-family: verdana;
+	height:280px;
+	text-shadow: -0.5px -0.5px 0 #ffff, 0.5px -0.5px 0 #ffff, -0.5px 0.5px 0 #ffff, 0.5px 0.5px 0 #ffff; 
+	padding-top:30px;
+	font-weight: bold;
+	color: #660000;
+	font-size: 22px;
+	position:relative;
+	bottom:13px;
+	
+}
+
+#footer{
+	/* border: 1px solid red; */
+	font-size:17px;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: -1px -1px 0 #000,-2px 0px 0 #000; 
+	position:fixed;
+	bottom:1px;
+	width:100%;
+	background-image: url('../images/background.jpg');
+	background-position: center;
+	
+}
+
+#controllers{
+	/* border: 1px solid green; */
+	position:relative;
+	/* float: right; */
+	left:1250px;
+	width:260px;
+	bottom:63px
+}
+#controllers a{
+	border:1px solid #ff9900;
+	text-decoration:none;
+	font-weight:bold;
+	color: #ffffff;
+	border-radius: 0px 5px;
+	background:#ff9900;
+	
+}
+
+#form_table{
+	/* border: 1px solid green; */	
+	border:2px solid #990099;
+	width: 50%;
+	position:relative;
+	right: -3%;
+	top: 30px;
+	padding-top:10px;
+	/* box-shadow:0px 10px 50px #990099; */
+	border-radius:0px 0px 8px 8px;
+	
+}
+
+#form_table td{
+	/* border: 1px solid green; */
+	font-size:22px;
+	font-weight: bold;
+	color:#990099;
+}
+#btn{
+	font-size:18px;
+	border-radius:8px;
+	font-weight: bold;
+	color:#9966cc;
+	padding:5px;
+	position:relative;
+	left: 200px;
+}
+#form_table caption{
+	border: 1px solid #990099;
+	width: 99.71%;
+	color:#ffff;
+	background-color: #990099;
+	font-size:25px;
+	font-weight: bold;
+	text-align: left;
+	padding-bottom:2px;
+	/* box-shadow:0px 1px 50px #990099; */
+
+}
+#form_table th,td{	
+	padding:10px;
+}
+
+.ip{
+	font-size:18px;
+	border-color:#cc99ff;
+}

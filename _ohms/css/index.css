@@ -1,0 +1,349 @@
+header{
+    position: relative;
+    z-index: 1000000;
+}
+p{
+    font-size: 1.3rem;
+}
+.para{
+    color: rgb(83, 79, 79);
+}
+.para_div{
+    width:70em !important;
+    position: relative;
+    right: 190px;
+}
+.navbar{
+    background: transparent !important;
+    transition: 0.5s !important;
+}
+.navbar.scrolled{
+    background:   rgba(0, 0, 0, 0.76) !important;
+    transition: 0.5s !important; 
+}
+.navbar.scrolled .nav_text h2{
+    color:   rgb(255, 255, 255) !important;
+    transition: 0.5s !important; 
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(44, 43, 43);
+    background: #fff;
+}
+.navbar-light .navbar-nav .active .nav-link:hover{
+    color: rgb(255, 0, 0);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus{
+    color: rgb(255, 4, 4);
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:visited{
+    color: rgba(255,255,255,1);
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.my_footer.scrolled .sci li a{
+    color: red;
+}
+
+.banner{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/_ohms/uploads/cover.jpg);
+    background-size: cover;
+    background-position: top;    
+}
+.banner:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(rgba(0, 162, 255, 0.582),transparent);/* rgba(0, 0, 0, 0.596) black*/
+    pointer-events: none;
+}
+.banner:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(360deg, #fff,transparent);/* rgba(0, 0, 0, 0.596) black*/
+    pointer-events: none;
+}
+
+.height100p{
+    height: 100vh;
+}
+.h100{
+    height: 60%;
+    width: 100%;
+}
+.content-box{
+    position: relative;
+    top: 424px;
+    /* left: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: rgba(255, 255, 255, 0.377); */
+    background: linear-gradient(360deg, #fff,transparent);
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.content-box h1{
+    font-weight: 800;
+    color:rgba(0, 0, 0, 0.486);
+    /* text-transform: uppercase; */
+    font-size: 3rem;
+}
+.content-box p{
+    color:rgba(0, 0, 0, 0.486);
+    font-size: 1.3rem;
+}
+
+.section1{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/_ohms/uploads/pic1.jpg);
+    background-size: cover;
+    background-position: top;    
+}
+.section1:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.993),transparent);/* rgba(0, 0, 0, 0.596) black*/
+    pointer-events: none;
+}
+.section1:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(360deg, #fff,transparent);/* rgba(0, 0, 0, 0.596) black*/
+    pointer-events: none;
+}
+.headerText{
+    color: rgba(255, 0, 0, 0.61);
+}
+.headerText h2{
+    font-size: 3rem;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+.placeBox{
+    position: relative;
+    max-width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 5px; 
+    margin-top:30px;
+}
+.placeBox .imgBx{
+    width: 100%;
+    height: 100%;
+}
+
+.placeBox .imgBx img{
+    object-fit: cover;
+    border-radius: 5px; 
+    width: 100%;
+    height: 100%;
+}
+.placeBox .content{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-end;
+}
+.placeBox .content p{
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    background: rgba(255, 254, 254, 0.281);
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+.section2{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 170vh;
+    background-image: url(/_ohms/uploads/familyback.jpg);
+    background-size: cover;
+    background-position: top;  
+    opacity: 0.89;  
+}
+.section2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0.993),transparent);
+    pointer-events: none;
+}
+.section2:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(360deg, #fff,transparent);
+    pointer-events: none;
+} 
+.doctors_profile{
+    position: relative;
+    max-width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 8px; 
+    margin-top:30px;
+}
+.doctors_profile .imgBx {
+    width: 100%;
+    height: 100%;
+} 
+.doctors_profile .imgBx img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px; 
+}
+.doctors_profile .content{
+    position: relative;
+    bottom:120px;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background: rgba(255, 254, 254, 0.719); 
+    /* display: flex; */
+    /* justify-content: baseline;
+    align-items: center; */
+}
+
+.doctors_profile .content span{
+    position: relative;
+    bottom:0;
+    margin: 0;
+    padding: 10px;
+    /* background: rgba(255, 254, 254, 0.281); */
+    color: rgba(194, 29, 29, 0.897);
+    font-size: 20px;
+    /* font-weight: 600; */
+    width: 100%;
+    text-align: center;
+}
+
+.doctors_profile .content .subspan{
+    font-size: 14px;
+    color: rgba(8, 8, 8, 0.897);
+    font-weight: bold;
+}
+
+.section3{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 113.1vh;
+    background-image: url(/_ohms/uploads/contact.jpg);
+    background-size: cover;
+    background-position: top;  
+    opacity: 0.89;  
+}
+.section3:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.993),transparent);
+    pointer-events: none;
+}
+.section3:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(360deg, #fff,transparent);
+    pointer-events: none;
+} 
+.contact .form-control{     
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,.2); 
+    height: 50px;
+    border-radius: 0;
+    background:  rgba(255, 255, 255, 0.349);
+    color: rgba(43, 41, 41, 0.753);
+    font-size: 1.25rem;
+}
+
+.contact .form-control:hover,
+.contact .form-control:focus{
+    border: none;
+    border-bottom: 2px solid rgb(255, 3, 3);
+    box-shadow: none; 
+}
+
+.lbl{
+    color: rgb(255, 0, 0);
+    font-size: 1.05rem
+}
+
+.btnD1{
+    color: rgb(255, 0, 0);
+    font-size: 1.05rem
+
+}
+
+.btnD1:hover{
+    color: rgb(255, 0, 0);
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+.contact .textarea{
+    min-height: 100px;
+}
+
+.contact form{
+    position: relative;
+    z-index: 1000;
+}

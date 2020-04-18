@@ -1,0 +1,53 @@
+#tp_title{
+	/* border: 1px solid red; */
+	width: 90%;
+	margin: 20px auto 0px auto;
+	font-size: 28px;
+	font-weight: bold;
+	color:#990099;
+}
+
+#qtable{
+	border: 1px solid #cc00ff;
+	width: 80%;
+	margin: 20px auto 50px auto;
+	
+}
+
+#qtable td{
+	/* border: 3px solid #990099; */
+	border-collapse: collapse;
+	padding: 10px;
+
+}
+
+.lft_cell{
+	font-size: 20px;
+	font-weight:bold;
+	vertical-align: top;
+	text-align:right;
+	width:20%;
+	color: #990099;
+}
+
+.rht_cell{
+	width: 80%;
+
+}
+
+.fld{
+	font-size: 20px;
+	color: #555;
+	padding: 10px;
+}
+
+#qt_fld{
+	width: 564px;
+}
+
+#qbtn{
+	font-size: 20px;
+	font-weight:bold;
+	padding: 10px 20px;
+	color:#333;
+}
