@@ -20,7 +20,7 @@
            <div class="content-box h100 back" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="0">
                <div>
                    <br /><br /> 
-                   <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" >Welcome To Our Site</h1>
+                   <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" >Welcome to our site...</h1>
                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">We Care For You!!! Thanks For Visiting . . .</p>
                </div>
            </div>
